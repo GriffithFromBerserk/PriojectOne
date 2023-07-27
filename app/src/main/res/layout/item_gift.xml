@@ -1,0 +1,39 @@
+<!-- item_gift.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:textColor="#2196F3"
+
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewGift"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewAge"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewGender"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp" />
+
+</LinearLayout>
